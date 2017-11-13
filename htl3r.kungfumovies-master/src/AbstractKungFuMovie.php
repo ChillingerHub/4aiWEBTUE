@@ -51,6 +51,6 @@ abstract class AbstractKungFuMovie
 
     public function __toString()
     {
-        return $this->getName()." ".$this->getRating()." ".$this->getMovieURI()." ".(getMovieInfoAsJson()||getMovieQRCodeForBrowser());
+        return $this->getName()." ".$this->getRating()." ".$this->getMovieURI();
     }
 }
