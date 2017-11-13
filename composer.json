@@ -1,0 +1,12 @@
+{
+    "name": "stefan/jacky-khan",
+    "repositories":{
+        "0":{
+            "type": "vcs",
+            "url": "https://github.com/Weissheiten/htl3r.kungfumovies"
+        }
+    },
+    "require": {
+        "htl3r/kungfumovies": "dev-master"
+    }
+}
