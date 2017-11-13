@@ -3,7 +3,8 @@
     "repositories":{
         "0":{
             "type": "vcs",
-            "url": "https://github.com/Weissheiten/htl3r.kungfumovies"
+            "url": "https://github.com/Weissheiten/htl3r.kungfumovies",
+            "url": "https://github.com/endroid/QrCode"
         }
     },
     "require": {
