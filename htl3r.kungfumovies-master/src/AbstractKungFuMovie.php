@@ -2,6 +2,7 @@
 
 namespace HTL3R\KungFuMovies;
 
+
 abstract class AbstractKungFuMovie
 {
     // Name of the movie - a string
@@ -50,6 +51,6 @@ abstract class AbstractKungFuMovie
 
     public function __toString()
     {
-        return $this->getName()." ".$this->getRating()." ".$this->getMovieURI();
+        return $this->getName()." ".$this->getRating()." ".$this->getMovieURI()." ".(getMovieInfoAsJson()||getMovieQRCodeForBrowser());
     }
 }

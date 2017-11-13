@@ -13,5 +13,7 @@
             "HTL3R\\KungFuMovies\\": "src/"
         }
     },
-    "require": {}
+    "require": {
+        "typo3fluid/fluid": "^2.4"
+    }
 }
